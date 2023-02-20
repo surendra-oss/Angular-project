@@ -1,0 +1,17 @@
+h1 {
+    color: antiquewhite;
+    font-size: 25% font-style: oblique;
+
+}
+
+body {
+    background-color: black;
+    margin-left: 17cm;
+    background-image: url(robocon.gif);
+    border: 0.2cm;
+    border-color: blanchedalmond;
+    border-radius: 2%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 13cm 8cm;
+}

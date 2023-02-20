@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Surendra Shiurkar</title>
+</head>
+<link rel="stylesheet" href="Portfoliodesign.css">
+
+</html>
+
+<body>
+  <h1> Surendra Shiurkar</h1>
+  <p class="icons">
+    <button class="btn" onclick="window.location.href='Portfolio.html';"><i class="fa fa-home"></i> Home</button>
+    <button class="btn" onclick="openNav()"><i class="fa fa-bars"></i> Menu</button>
+  </p>
+  <h3> Robotics Engineer</h3>
+  <button class="design1"><span>Hii ! Would you like to know more about me ? </span></button><br></br>
+  <button class="design2"><span>Please have a view over my projects</span></button><br></br>
+  <button class="design3" onclick="window.location.href='contact.html';"><span>Would you like to connnect with me
+      ?</span></button>
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">About me</a>
+    <a href="#">Projects</a>
+    <a href="#">My blogs</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+
+</body>
